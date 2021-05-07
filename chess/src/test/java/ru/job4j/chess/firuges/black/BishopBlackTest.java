@@ -18,8 +18,8 @@ public class BishopBlackTest {
     @Test
     public void copy() {
         BishopBlack pos = new BishopBlack(F8);
-        Figure figure = pos.copy(F8);
-        assertThat(figure.position(), is(pos.position()));
+        Figure figure = pos.copy(E7);
+        assertThat(figure.position(), is(E7));
     }
 
     @Test
